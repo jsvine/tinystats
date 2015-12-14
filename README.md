@@ -79,9 +79,11 @@ optional arguments:
   --sep SEP             Separator for CSV fields. Defaults to a comma.
   --fields FIELDS [FIELDS ...]
                         Return only these fields
+```
 
 ### `tinystats subscribers`
 
+```
 usage: tinystats subscribers [-h] [-p PASSWORD] [-n N] [--format {csv,json}]
                              [--sep SEP] [--fields FIELDS [FIELDS ...]]
                              username
