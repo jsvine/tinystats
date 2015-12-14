@@ -25,13 +25,15 @@ pip install tinystats
 - `subscribers`: All current subscribers to your newsletter; most recent first.
 - `subcriber_count`: Simply prints the current number of subscribers to your newsletter.
 
+
 Commands take the following basic form:
 
 ```
 tinystats [report-type] [your-newsletter-username]
 ```
 
-By default, each command outputs the data as a CSV spreadsheet to the terminal's standard output. So, to save a spreadsheet of every URL I've included in [Data Is Plural](https://tinyletter.com/data-is-plural) as `dip-urls.csv`, I'd run this command:
+
+By default, each command outputs its results as a CSV spreadsheet to the terminal's standard output. So, to save a spreadsheet of every URL I've included in [Data Is Plural](https://tinyletter.com/data-is-plural) as `dip-urls.csv`, I'd run this command:
 
 ```
 tinystats urls data-is-plural > dip-urls.csv
