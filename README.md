@@ -35,7 +35,7 @@ tinystats urls data-is-plural > dip-urls.csv
 
 ## Details And Options
 
-### `tinystats messages`
+### tinystats messages
 
 ```
 usage: tinystats messages [-h] [--include-content] [-p PASSWORD] [-n N]
@@ -59,7 +59,7 @@ optional arguments:
                         Return only these fields
 ```
 
-### `tinystats urls`
+### tinystats urls
 
 ```
 usage: tinystats urls [-h] [-p PASSWORD] [-n N] [--format {csv,json}]
@@ -81,7 +81,7 @@ optional arguments:
                         Return only these fields
 ```
 
-### `tinystats subscribers`
+### tinystats subscriber
 
 ```
 usage: tinystats subscribers [-h] [-p PASSWORD] [-n N] [--format {csv,json}]
@@ -103,7 +103,7 @@ optional arguments:
                         Return only these fields
 ```
 
-### `tinystats subscriber_count`
+### tinystats subscriber_count
 
 ```
 usage: tinystats subscriber_count [-h] [-p PASSWORD] username
