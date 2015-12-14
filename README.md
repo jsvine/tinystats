@@ -25,13 +25,19 @@ pip install tinystats
 - `subscribers`: All current subscribers to your newsletter; most recent first.
 - `subcriber_count`: Simply prints the current number of subscribers to your newsletter.
 
-To run a report, execute the command `tinystats [report-type] [your-newsletter-username]`. You'll be prompted for your password. (Your password is not stored *anywhere* or sent anywhere other than to TinyLetter's servers.)
+Commands take the following basic form:
+
+```
+tinystats [report-type] [your-newsletter-username]
+```
 
 By default, each command outputs the data as a CSV spreadsheet to the terminal's standard output. So, to save a spreadsheet of every URL I've included in [Data Is Plural](https://tinyletter.com/data-is-plural) as `dip-urls.csv`, I'd run this command:
 
 ```
 tinystats urls data-is-plural > dip-urls.csv
 ```
+
+Note: When you run a `tinystats` command, you'll be prompted for your password. Your password is *not stored anywhere* or sent anywhere other than to TinyLetter's servers.
 
 ## Details And Options
 
