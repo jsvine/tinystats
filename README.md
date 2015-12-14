@@ -38,7 +38,7 @@ Each command will print its results to the command line. So, to save a spreadshe
 tinystats urls data-is-plural > dip-urls.csv
 ```
 
-Note: `tinystats` will prompt you to enter your password. Your password is *not stored anywhere* or sent anywhere other than to TinyLetter's servers.
+Note: To fetch the data, you'll need to enter your password. For security reasons, that information is *not stored anywhere* or sent anywhere other than to TinyLetter's servers.
 
 ## Details And Options
 
