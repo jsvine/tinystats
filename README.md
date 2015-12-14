@@ -37,6 +37,7 @@ tinystats urls data-is-plural > dip-urls.csv
 
 ### `tinystats messages`
 
+```
 usage: tinystats messages [-h] [--include-content] [-p PASSWORD] [-n N]
                           [--format {csv,json}] [--sep SEP]
                           [--fields FIELDS [FIELDS ...]]
@@ -56,10 +57,11 @@ optional arguments:
   --sep SEP             Separator for CSV fields. Defaults to a comma.
   --fields FIELDS [FIELDS ...]
                         Return only these fields
-
+```
 
 ### `tinystats urls`
 
+```
 usage: tinystats urls [-h] [-p PASSWORD] [-n N] [--format {csv,json}]
                       [--sep SEP] [--fields FIELDS [FIELDS ...]]
                       username
@@ -97,9 +99,11 @@ optional arguments:
   --sep SEP             Separator for CSV fields. Defaults to a comma.
   --fields FIELDS [FIELDS ...]
                         Return only these fields
+```
 
 ### `tinystats subscriber_count`
 
+```
 usage: tinystats subscriber_count [-h] [-p PASSWORD] username
 
 Current number of subscribers to your newsletter.
@@ -110,6 +114,7 @@ positional arguments:
 optional arguments:
   -h, --help            show this help message and exit
   -p PASSWORD, --password PASSWORD
+```
 
 ## Feedback / Improvements?
 
