@@ -33,7 +33,7 @@ tinystats [report-type] [your-newsletter-username]
 ```
 
 
-By default, each command outputs its results as a CSV spreadsheet to the terminal's standard output. So, to save a spreadsheet of every URL I've included in [Data Is Plural](https://tinyletter.com/data-is-plural) as `dip-urls.csv`, I'd run this command:
+Each command will print its results to the command line. So, to save a spreadsheet of every URL I've included in [Data Is Plural](https://tinyletter.com/data-is-plural) as `dip-urls.csv`, I'd run this command:
 
 ```
 tinystats urls data-is-plural > dip-urls.csv
