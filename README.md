@@ -32,14 +32,13 @@ Commands take the following basic form:
 tinystats [report-type] [your-newsletter-username]
 ```
 
-
 Each command will print its results to the command line. So, to save a spreadsheet of every URL I've included in [Data Is Plural](https://tinyletter.com/data-is-plural) as `dip-urls.csv`, I'd run this command:
 
 ```
 tinystats urls data-is-plural > dip-urls.csv
 ```
 
-Note: When you run a `tinystats` command, you'll be prompted for your password. Your password is *not stored anywhere* or sent anywhere other than to TinyLetter's servers.
+Note: `tinystats` will prompt you to enter your password. Your password is *not stored anywhere* or sent anywhere other than to TinyLetter's servers.
 
 ## Details And Options
 
