@@ -125,6 +125,20 @@ optional arguments:
   -p PASSWORD, --password PASSWORD
 ```
 
+## Recipes
+
+### Overall "open rate"
+
+```sh
+export TINYSTATS_USER="your-username"
+
+tinystats messages $TINYSTATS_USER --fields send_count stats.unique_opens | awk -F "," '{
+    sends+=$1; opens+=$2;
+} END {
+    printf "Aggregate open rate: %d/%d = %.1f%%\n", opens, sends, 100 * opens / sends
+}'
+```
+
 ## Feedback / Improvements?
 
 [I'm all ears](https://github.com/jsvine/tinyapi/issues/).
