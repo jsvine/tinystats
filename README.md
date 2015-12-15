@@ -1,6 +1,6 @@
 # tinystats
 
-`tinystats` is a command-line tool for fetching message, URL, and subscriber data for the TinyLetter newsletters you own. Built and maintained by the author of [Data Is Plural](https://tinyletter.com/data-is-plural), a weekly newsletter of interesting/curious datasets.
+`tinystats` is a command-line tool for fetching message, URL, and subscriber data for the TinyLetter newsletters you own. Brought to you by [Data Is Plural](https://tinyletter.com/data-is-plural), a weekly newsletter of interesting/curious datasets.
 
 Looking for more customized reports? Try [`tinyapi`](https://github.com/jsvine/tinyapi), the Python library that powers `tinystats`.
 
